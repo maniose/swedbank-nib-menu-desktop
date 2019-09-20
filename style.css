@@ -37,7 +37,7 @@ header .logo {
 	margin: 16px 0 0 50px;
 }
 nav {
-	width: 250px;
+	width: 260px;
 	border-right: 1px solid #EBE7E2;
 	flex-shrink: 0;
 }
@@ -100,10 +100,8 @@ nav li.active {
 }
 nav li.active.expanded {
 	background-color: rgba(235, 231, 226, 0.3);
-	cursor: default;
 }
 nav li.active.expanded a {
-	cursor: default;
 }
 nav li.active.expanded ul a {
 	cursor: pointer;
