@@ -100,7 +100,7 @@ nav li.active {
 	background-color: #FBF2EA;
 }
 nav li.active:not(.expanded) {
-	border-left: 4px solid #F35B1C;
+	box-shadow: inset 4px 0px 0px 0px #F35B1C;
 }
 nav li.active.expanded {
 	background-color: rgba(235, 231, 226, 0.3);
