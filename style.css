@@ -99,6 +99,9 @@ nav ul li ul a {
 nav li.active {
 	background-color: #FBF2EA;
 }
+nav li.active:not(.expanded) {
+	border-left: 4px solid #F35B1C;
+}
 nav li.active.expanded {
 	background-color: rgba(235, 231, 226, 0.3);
 }
