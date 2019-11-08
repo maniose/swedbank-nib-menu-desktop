@@ -44,6 +44,7 @@ nav {
 	flex-shrink: 0;
 	height: 100%;
 	overflow: auto;
+	-ms-overflow-style: -ms-autohiding-scrollbar;
 }
 nav a {
 	text-decoration: none;
