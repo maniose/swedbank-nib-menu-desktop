@@ -101,7 +101,8 @@ nav ul li ul a {
 #content {
 	flex-grow: 1;
 	height: 100%;
-	overflow: auto;
+	overflow-y: auto;
+	overflow-x: hidden;
 }
 nav li.active {
 	background-color: #FBF2EA;
