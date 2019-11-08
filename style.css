@@ -44,7 +44,19 @@ nav {
 	flex-shrink: 0;
 	height: 100%;
 	overflow: auto;
-	-ms-overflow-style: -ms-autohiding-scrollbar;
+	scrollbar-width: thin;
+	scrollbar-color: rgba(0,0,0,.2) transparent;
+
+}
+nav::-webkit-scrollbar {
+	height: 10px;
+	width: 10px;
+}
+nav::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+nav::-webkit-scrollbar-thumb {
+	background-color: rgba(0,0,0,.2);
 }
 nav a {
 	text-decoration: none;
